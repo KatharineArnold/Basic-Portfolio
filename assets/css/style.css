@@ -10,3 +10,7 @@ main{
 .left{
     float: left;
 }
+
+.box{
+    border-style: solid;
+}
