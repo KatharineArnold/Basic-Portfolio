@@ -13,4 +13,18 @@ main{
 
 .box{
     border-style: solid;
+    height: 200px;
+    width: 30%;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container
+
 }
