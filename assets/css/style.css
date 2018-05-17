@@ -11,17 +11,22 @@ h1, h2, h3{
     background-image: url("../images/light-grey-terrazzo.png");
     height: 100%;
     border: 3px solid #dddddd;
-  
-}
-
-.puppy{
-    /* max-width: 100%; */
-    /* max-width: 100%; */
-  
+    margin-top: -3px;
 }
 
 
-.contact-main{
+.white{
+    background-color: #ffffff;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+
+/* .contact-main{
     border: solid 3px #dddddd;
     margin: auto; 
     padding: 10px;
@@ -32,7 +37,7 @@ h1, h2, h3{
     padding: 10px; 
     margin: auto;
     border: 3px solid #dddddd;
-  }
+  } */
 
 .nav-container{
     width: 960px;
@@ -51,11 +56,11 @@ h1, h2, h3{
 
 .box{
     
-    height: 200px;
+    height: 230px;
     width: 30%;
     display: inline-block;
     position: relative;
-    margin: 20px;
+    margin: 30px;
 }
 
 ul {
@@ -69,7 +74,19 @@ ul {
 a:link{
     color:  #777777;
     text-decoration: none;
+    
 }
+
+a:visited {
+    text-decoration: none;
+    color:  #777777;
+}
+
+a:hover{
+    color: #4aaaa5;
+    font-weight: bolder;
+}
+
 
 li{
     display: inline-block;
@@ -89,15 +106,7 @@ h1{
     float: left;
 }
 
-.white{
-    background-color: #ffffff;
-    width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 40px;
-    margin-top: 60px;
-    margin-bottom: 100px;
-}
+
 
 h2{
     color: #4aaaa5;
