@@ -14,6 +14,9 @@ h1, h2, h3{
     margin-top: -3px;
 }
 
+.index-main{
+    padding-bottom: 100px;
+}
 
 .white{
     background-color: #ffffff;
@@ -51,7 +54,7 @@ h1, h2, h3{
     float: left;
     height: 250px;
     width: 200px;
-    padding: 5px;
+    padding-right: 20px;
 }
 
 .box{
@@ -67,6 +70,7 @@ ul {
     list-style-type: none;
     float: right;
     padding-top: 30px;
+    
  
     
 }
@@ -84,15 +88,17 @@ a:visited {
 
 a:hover{
     color: #4aaaa5;
-    font-weight: bolder;
+    text-shadow: 0 0 .9px #333, 0 0 .9px #333, 0 0 .9px #333;
 }
 
 
 li{
     display: inline-block;
     border-right:solid 1px #777777;
-    padding-right: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
     font-size: 20px;
+  
 }
 
 
@@ -129,6 +135,7 @@ footer{
 p{
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 25px
 }
 
 
